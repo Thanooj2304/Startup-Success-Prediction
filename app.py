@@ -14,7 +14,7 @@ funding_total = st.number_input("Total Funding Raised (USD)", min_value=0, value
 funding_rounds = st.number_input("Number of Funding Rounds", min_value=0, value=2)
 days_to_first_funding = st.number_input("Days from Founding to First Funding", min_value=0, value=180)
 funding_duration = st.number_input("Funding Duration (Days between First and Last Round)", min_value=0, value=365)
-founding_year = st.number_input("Year Founded", min_value=1980, max_value=2024, value=2010)
+founding_year = st.number_input("Year Founded", min_value=1980, max_value=2013, value=2010)
 avg_funding_per_round = funding_total / (funding_rounds + 1)
 
 # Predict button
