@@ -6,7 +6,7 @@ import joblib
 model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')
 
-st.title("🚀 Startup Success Predictor")
+st.title("Startup Success Predictor")
 st.write("Enter the startup's financial details to predict its likelihood of success.")
 
 # Input fields for the user
